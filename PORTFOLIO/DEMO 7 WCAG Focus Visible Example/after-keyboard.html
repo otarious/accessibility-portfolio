@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Keyboard Navigation Fixed Example</title>
+  <style>
+    .custom-link {
+      color: #0057a3;
+      text-decoration: underline;
+      padding: 6px 12px;
+      border-radius: 6px;
+    }
+    .custom-link:focus {
+      outline: 2px solid #ff9800;
+      background: #fff3e0;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h2>Menu</h2>
+    <!-- Fix: Links are now clearly focusable for keyboard users -->
+    <a href="/home" class="custom-link">Home</a>
+    <a href="/about" class="custom-link">About</a>
+    <a href="/contact" class="custom-link">Contact</a>
+  </main>
+</body>
+</html>

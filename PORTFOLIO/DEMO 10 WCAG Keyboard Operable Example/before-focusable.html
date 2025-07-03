@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Non-focusable Element Example</title>
+  <style>
+    .custom-card {
+      padding: 24px;
+      margin: 16px 0;
+      background: #f2f2f2;
+      border-radius: 12px;
+      cursor: pointer;
+      /* Problem: Not focusable for keyboard users */
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h2>Featured Item</h2>
+    <!-- Problem: Div is clickable but not focusable for keyboard users -->
+    <div class="custom-card" onclick="alert('Clicked!')">
+      <strong>Read More</strong>
+    </div>
+  </main>
+</body>
+</html>

@@ -1,0 +1,22 @@
+body {
+  background: #fff;
+  font-family: Arial, sans-serif;
+  padding: 50px;
+}
+
+/* Problem: Very light text (#e0e0e0) results in poor contrast */
+.low-contrast {
+  color: #e0e0e0;
+  font-size: 1.3rem;
+  margin-bottom: 30px;
+}
+
+button {
+  background: #0057a3;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 32px;
+  font-size: 1rem;
+  cursor: pointer;
+}

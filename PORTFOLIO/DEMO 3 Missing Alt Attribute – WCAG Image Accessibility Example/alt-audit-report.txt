@@ -1,0 +1,16 @@
+Accessibility Audit Report: Missing Alt Attribute
+
+Issue:
+Image does not have an alt attribute.
+
+WCAG Standard:
+WCAG 2.1 – Success Criterion 1.1.1 (Non-text Content)
+
+Impact:
+Screen reader users cannot understand the content or purpose of the image, resulting in a poor experience for blind and visually impaired users.
+
+Recommendation:
+Add a meaningful and descriptive alt attribute to every informative image.
+
+Result:
+The image is now accessible for screen reader users and the page meets WCAG 2.1 requirements.

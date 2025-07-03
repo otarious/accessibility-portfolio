@@ -1,0 +1,162 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Header */
+.header {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  background: #ccc;
+  color: #444;
+  justify-content: space-between;
+}
+.header img {
+  width: 48px;
+  height: 48px;
+  object-fit: contain;
+}
+.header ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+}
+.header ul li a {
+  color: #444;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+/* Hero */
+.hero {
+  padding: 60px 20px;
+  background: #f9f9f9;
+}
+.hero h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+.hero button {
+  padding: 12px 30px;
+  font-size: 1em;
+  border: none;
+  border-radius: 4px;
+  margin-top: 15px;
+  background: #ddd;
+  color: #eee;
+  cursor: pointer;
+}
+
+/* Services */
+.services {
+  display: flex;
+  justify-content: space-around;
+  padding: 40px 0;
+  background: #eee;
+}
+.service-block {
+  background: #e9e9e9;
+  padding: 24px;
+  border-radius: 8px;
+  width: 30%;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.02);
+  text-align: left;
+}
+
+/* Service Images: responsive fix */
+.service-block img {
+  width: 380px;
+  height: 180px;
+  max-width: 100%;
+  object-fit: cover;
+  margin-bottom: 42px;
+  border-radius: 12px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media (max-width: 1200px) {
+  .service-block img {
+    width: 90vw;
+    max-width: 340px;
+    height: auto;
+    aspect-ratio: 19/9;
+  }
+}
+@media (max-width: 700px) {
+  .services {
+    flex-direction: column;
+    align-items: center;
+  }
+  .service-block {
+    width: 90%;
+    margin-bottom: 24px;
+  }
+  .service-block img {
+    width: 100vw;
+    max-width: 100%;
+    height: auto;
+    aspect-ratio: 16/9;
+    margin-bottom: 18px;
+  }
+}
+
+.service-block h2 {
+  font-size: 1.25em;
+  margin-bottom: 8px;
+}
+
+/* Contact Form */
+.contact-form {
+  padding: 40px 20px;
+  background: #f3f3f3;
+  max-width: 600px;
+  margin: 0 auto;
+}
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+.contact-form input, .contact-form textarea {
+  padding: 10px;
+  border: 1px solid #bbb;
+  border-radius: 4px;
+  font-size: 1em;
+}
+.contact-form button {
+  align-self: flex-end;
+  background: #ddd;
+  color: #aaa;
+  padding: 12px 28px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* FAQ */
+.faq {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 0 20px;
+}
+.faq div {
+  margin-bottom: 20px;
+}
+.faq span {
+  display: block;
+  margin-bottom: 4px;
+}
+
+/* Footer */
+.footer {
+  padding: 18px 20px;
+  background: #ccc;
+  color: #444;
+  text-align: center;
+  margin-top: 40px;
+}

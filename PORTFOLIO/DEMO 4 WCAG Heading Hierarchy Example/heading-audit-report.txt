@@ -1,0 +1,16 @@
+Accessibility Audit Report: Heading Structure
+
+Issue:
+Heading elements are not in a logical hierarchical order (e.g., skipping from <h1> to <h3> and <h5>).
+
+WCAG Standard:
+WCAG 2.1 – Success Criterion 1.3.1 (Info and Relationships)
+
+Impact:
+Screen reader and keyboard users may have difficulty understanding the page structure, making navigation confusing.
+
+Recommendation:
+Use headings (<h1> to <h6>) in a logical order without skipping levels, to create clear content hierarchy and improve accessibility.
+
+Result:
+The page now has a proper heading structure that is easy to navigate for all users and compliant with WCAG 2.1.

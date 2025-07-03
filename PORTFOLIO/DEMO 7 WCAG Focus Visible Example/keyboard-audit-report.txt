@@ -1,0 +1,16 @@
+Accessibility Audit Report: Keyboard Navigation
+
+Issue:
+Links have no visible focus indicator, making it difficult for keyboard-only users to know which element is active.
+
+WCAG Standard:
+WCAG 2.1 – Success Criterion 2.4.7 (Focus Visible)
+
+Impact:
+Keyboard users cannot visually track their location on the page, reducing accessibility and usability.
+
+Recommendation:
+Provide a clear, visible focus style (e.g., outline or background) for all interactive elements.
+
+Result:
+All links now have a visible focus indicator, making the page accessible and easy to use with a keyboard.

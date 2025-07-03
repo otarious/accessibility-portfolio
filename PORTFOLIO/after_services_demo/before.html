@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Company Landing Page - Before Accessibility Fixes</title>
+  <link rel="stylesheet" href="styles.css">
+  <!-- No viewport meta, not responsive -->
+</head>
+<body>
+  <!-- Header: no semantic tags, missing nav, no alt for image -->
+  <div class="header">
+    <img src="logo.png">
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Services</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </div>
+
+  <!-- Hero: insufficient contrast, no semantic section, text not centered -->
+  <div class="hero" style="background:#f9f9f9;">
+    <h1 style="color:#eee;">Welcome to Our Agency</h1>
+    <p>Best solutions for your business needs.</p>
+    <button>Get Started</button>
+  </div>
+
+  <!-- Services: no section/article, images without alt, no layout structure -->
+  <div class="services">
+    <div class="service-block">
+      <img src="test.png">
+      <h2>Design</h2>
+      <p>Modern and creative design solutions.</p>
+    </div>
+    <div class="service-block">
+      <img src="test.png">
+      <h2>Development</h2>
+      <p>Web and mobile development services.</p>
+    </div>
+    <div class="service-block">
+      <img src="test.png">
+      <h2>Support</h2>
+      <p>24/7 technical support for our clients.</p>
+    </div>
+  </div>
+
+  <!-- Contact Form: only placeholders, no labels, no aria, no section -->
+  <div class="contact-form">
+    <form>
+      <input type="text" placeholder="Name">
+      <input type="email" placeholder="Email">
+      <textarea placeholder="Your message"></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </div>
+
+  <!-- FAQ: static, no keyboard access, no structure -->
+  <div class="faq">
+    <div>
+      <span>What services do you offer?</span>
+      <span>We offer design, development, and support services.</span>
+    </div>
+    <div>
+      <span>How to contact us?</span>
+      <span>Use the form above or email info@agency.com</span>
+    </div>
+  </div>
+
+  <!-- Footer: no semantic tag -->
+  <div class="footer">
+    <span>© 2025 Our Agency</span>
+    <a href="#">Privacy Policy</a>
+  </div>
+</body>
+</html>

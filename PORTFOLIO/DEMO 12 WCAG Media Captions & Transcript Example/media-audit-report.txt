@@ -1,0 +1,16 @@
+Accessibility Audit Report: Video/Audio Content
+
+Issue:
+Video has no captions or transcript, making it inaccessible for deaf or hard-of-hearing users.
+
+WCAG Standard:
+WCAG 2.1 – Success Criterion 1.2.2 (Captions), 1.2.1 (Transcript)
+
+Impact:
+Deaf and hard-of-hearing users cannot access the audio information presented in the video.
+
+Recommendation:
+Provide synchronized captions and a text transcript for all video and audio content.
+
+Result:
+The video is now accessible for all users, including those with hearing impairments, and fully meets WCAG 2.1 requirements.

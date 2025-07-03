@@ -1,0 +1,16 @@
+Accessibility Audit Report: Descriptive Buttons and Links
+
+Issue:
+Button and link text are not descriptive (e.g., "Click", "Here").
+
+WCAG Standard:
+WCAG 2.1 – Success Criterion 2.4.4 (Link Purpose)
+
+Impact:
+Screen reader users and people with cognitive disabilities may not understand the purpose of these controls, making navigation confusing.
+
+Recommendation:
+Use descriptive text for all buttons and links, clearly indicating their purpose.
+
+Result:
+The button and link now have clear, meaningful labels, making the page accessible and user-friendly for everyone.

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <!-- Added viewport meta tag for responsive design -->
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Company Landing Page - After Accessibility Fixes</title>
+  <!-- Linked accessible CSS -->
+  <link rel="stylesheet" href="after.css" />
+</head>
+<body>
+  <!-- Skip link for keyboard users -->
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- Semantic header with navigation -->
+  <header>
+    <nav aria-label="Primary navigation" class="header">
+      <!-- Added meaningful alt text -->
+      <img src="logo.png" alt="Company logo" width="48" height="48" />
+      <ul>
+        <li><a href="#" tabindex="0">Home</a></li>
+        <li><a href="#" tabindex="0">Services</a></li>
+        <li><a href="#" tabindex="0">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Main content landmark -->
+  <main id="main-content" tabindex="-1">
+    <!-- Hero section -->
+    <section class="hero" aria-label="Welcome message">
+      <h1>Welcome to Our Agency</h1>
+      <p>Best solutions for your business needs.</p>
+      <button type="button">Get Started</button>
+    </section>
+
+    <!-- Services section with semantic article -->
+    <section class="services" aria-label="Our services">
+      <article class="service-block">
+        <img src="test.png" alt="Design service illustration" />
+        <h2>Design</h2>
+        <p>Modern and creative design solutions.</p>
+      </article>
+      <article class="service-block">
+        <img src="test.png" alt="Development service illustration" />
+        <h2>Development</h2>
+        <p>Web and mobile development services.</p>
+      </article>
+      <article class="service-block">
+        <img src="test.png" alt="Support service illustration" />
+        <h2>Support</h2>
+        <p>24/7 technical support for our clients.</p>
+      </article>
+    </section>
+
+    <!-- Contact form with labels and aria-required -->
+    <section class="contact-form" aria-label="Contact form">
+      <form>
+        <div>
+          <label for="name">Name</label>
+          <input id="name" type="text" placeholder="Name" aria-required="true" />
+        </div>
+        <div>
+          <label for="email">Email</label>
+          <input id="email" type="email" placeholder="Email" aria-required="true" />
+        </div>
+        <div>
+          <label for="message">Your message</label>
+          <textarea id="message" placeholder="Your message" aria-required="true"></textarea>
+        </div>
+        <button type="submit">Send</button>
+      </form>
+    </section>
+
+    <!-- FAQ section with details/summary -->
+    <section class="faq" aria-label="Frequently Asked Questions">
+      <details>
+        <summary tabindex="0">What services do you offer?</summary>
+        <p>We offer design, development, and support services.</p>
+      </details>
+      <details>
+        <summary tabindex="0">How to contact us?</summary>
+        <p>Use the form above or email info@agency.com</p>
+      </details>
+    </section>
+  </main>
+
+  <!-- Footer with keyboard accessible link -->
+  <footer class="footer">
+    <span>© 2025 Our Agency</span>
+    <a href="#" tabindex="0">Privacy Policy</a>
+  </footer>
+</body>
+</html>

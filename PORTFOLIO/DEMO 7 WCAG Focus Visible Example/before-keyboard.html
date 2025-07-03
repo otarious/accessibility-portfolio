@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Keyboard Navigation Problem Example</title>
+  <style>
+    .custom-link {
+      color: #0057a3;
+      text-decoration: underline;
+      padding: 6px 12px;
+      border-radius: 6px;
+      /* Problem: outline is removed, making focus invisible */
+      outline: none;
+    }
+    .custom-link:focus {
+      /* No visible focus style */
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h2>Menu</h2>
+    <!-- Problem: Link is not clearly focusable using keyboard -->
+    <a href="/home" class="custom-link">Home</a>
+    <a href="/about" class="custom-link">About</a>
+    <a href="/contact" class="custom-link">Contact</a>
+  </main>
+</body>
+</html>

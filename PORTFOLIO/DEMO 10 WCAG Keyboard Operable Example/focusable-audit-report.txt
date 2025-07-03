@@ -1,0 +1,16 @@
+Accessibility Audit Report: Focusable Elements
+
+Issue:
+Custom interactive element (<div>) is not focusable for keyboard users.
+
+WCAG Standard:
+WCAG 2.1 – Success Criterion 2.1.1 (Keyboard)
+
+Impact:
+Keyboard-only users cannot access or activate this element, resulting in poor accessibility.
+
+Recommendation:
+Add tabindex="0" to make the element focusable, and provide visible focus indication.
+
+Result:
+The element is now fully accessible and operable by keyboard, meeting WCAG 2.1 requirements.

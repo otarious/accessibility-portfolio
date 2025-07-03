@@ -1,0 +1,16 @@
+Accessibility Audit Report: Screen Reader Compatibility
+
+Issue:
+Button with only an icon is missing an accessible label and cannot be interpreted by screen reader users.
+
+WCAG Standard:
+WCAG 2.1 – Success Criterion 4.1.2 (Name, Role, Value)
+
+Impact:
+Screen reader users cannot determine the button's purpose, making it inaccessible.
+
+Recommendation:
+Add an aria-label to the button and mark the visual icon as aria-hidden.
+
+Result:
+The button is now fully accessible and clearly described by screen readers.

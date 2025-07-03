@@ -1,0 +1,16 @@
+Accessibility Audit Report: ARIA Attributes
+
+Issue:
+Navigation region is not identified for assistive technology users.
+
+WCAG Standard:
+WCAG 2.1 – Success Criterion 1.3.1 (Info and Relationships)
+
+Impact:
+Screen reader users cannot easily locate or skip the navigation section, reducing usability.
+
+Recommendation:
+Use semantic HTML elements (e.g., <nav>) and ARIA attributes (e.g., aria-label) to clearly define navigation regions.
+
+Result:
+The navigation is now properly identified and accessible for all users, including those with assistive technology.
