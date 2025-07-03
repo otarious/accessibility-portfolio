@@ -29,19 +29,34 @@ A full audit and remediation of a company landing page.
 
 ## Additional Accessibility Demos — Live Preview
 
-- [DEMO 1: WCAG Fixes (Alt Text, Button Labels, Contrast, UX)](https://otarious.github.io/accessibility-portfolio/PORTFOLIO/DEMO%201%20WCAG%20Fixes%20(Alt%20Text,%20Button%20Labels,%20Contrast,%20UX)/after.html)
-- [DEMO 2: WCAG Color Contrast Fix – Order Summary Example](https://otarious.github.io/accessibility-portfolio/PORTFOLIO/DEMO%202-WCAG%20Color%20Contrast%20Fix%20–%20Order%20Summary%20Example/after.html)
-- [DEMO 3: Missing Alt Attribute – WCAG Image Accessibility Example](https://otarious.github.io/accessibility-portfolio/PORTFOLIO/DEMO%203%20Missing%20Alt%20Attribute%20–%20WCAG%20Image%20Accessibility%20Example/after.html)
-- [DEMO 4: WCAG Heading Hierarchy Example](https://otarious.github.io/accessibility-portfolio/PORTFOLIO/DEMO%204%20WCAG%20Heading%20Hierarchy%20Example/after.html)
-- [DEMO 5: WCAG Labeled Form Example](https://otarious.github.io/accessibility-portfolio/PORTFOLIO/DEMO%205%20WCAG%20Labeled%20Form%20Example/after.html)
-- [DEMO 6: WCAG Meaningful Controls Example](https://otarious.github.io/accessibility-portfolio/PORTFOLIO/DEMO%206%20WCAG%20Meaningful%20Controls%20Example/after.html)
-- [DEMO 7: WCAG Focus Visible Example](https://otarious.github.io/accessibility-portfolio/PORTFOLIO/DEMO%207%20WCAG%20Focus%20Visible%20Example/after.html)
-- [DEMO 8: WCAG Navigation Landmark Example](https://otarious.github.io/accessibility-portfolio/PORTFOLIO/DEMO%208%20WCAG%20Navigation%20Landmark%20Example/after.html)
-- [DEMO 9: WCAG Focus Style Example](https://otarious.github.io/accessibility-portfolio/PORTFOLIO/DEMO%209%20WCAG%20Focus%20Style%20Example/after.html)
-- [DEMO 10: WCAG Keyboard Operable Example](https://otarious.github.io/accessibility-portfolio/PORTFOLIO/DEMO%2010%20WCAG%20Keyboard%20Operable%20Example/after.html)
-- [DEMO 11: WCAG Screen Reader Label Example](https://otarious.github.io/accessibility-portfolio/PORTFOLIO/DEMO%2011%20WCAG%20Screen%20Reader%20Label%20Example/after.html)
-- [DEMO 12: WCAG Media Captions & Transcript Example](https://otarious.github.io/accessibility-portfolio/PORTFOLIO/DEMO%2012%20WCAG%20Media%20Captions%20&%20Transcript%20Example/after.html)
-- [DEMO 13: WCAG lang & dir Example](https://otarious.github.io/accessibility-portfolio/PORTFOLIO/DEMO%2013%20WCAG%20lang%20&%20dir%20Example/after.html)
+[DEMO 1: WCAG Fixes (Alt Text, Button Labels, Contrast, UX)](https://otarious.github.io/accessibility-portfolio/PORTFOLIO/DEMO%201%20WCAG%20Fixes%20(Alt%20Text,%20Button%20Labels,%20Contrast,%20UX)/after.html)
+
+[DEMO 2: WCAG Color Contrast Fix – Order Summary Example](https://otarious.github.io/accessibility-portfolio/PORTFOLIO/DEMO%202-WCAG%20Color%20Contrast%20Fix%20%E2%80%93%20Order%20Summary%20Example/contrast-after.html)
+
+[DEMO 3: Missing Alt Attribute – WCAG Image Accessibility Example](https://otarious.github.io/accessibility-portfolio/PORTFOLIO/DEMO%203%20Missing%20Alt%20Attribute%20%E2%80%93%20WCAG%20Image%20Accessibility%20Example/alt-after.html)
+
+[DEMO 4: WCAG Heading Hierarchy Example](https://otarious.github.io/accessibility-portfolio/PORTFOLIO/DEMO%204%20WCAG%20Heading%20Hierarchy%20Example/after-heading.html)
+
+[DEMO 5: WCAG Labeled Form Example](https://otarious.github.io/accessibility-portfolio/PORTFOLIO/DEMO%205%20WCAG%20Labeled%20Form%20Example/after-form.html)
+
+[DEMO 6: WCAG Meaningful Controls Example](https://otarious.github.io/accessibility-portfolio/PORTFOLIO/DEMO%206%20WCAG%20Meaningful%20Controls%20Example/after-buttons.html)
+
+[DEMO 7: WCAG Focus Visible Example](https://otarious.github.io/accessibility-portfolio/PORTFOLIO/DEMO%207%20WCAG%20Focus%20Visible%20Example/after-keyboard.html)
+
+[DEMO 8: WCAG Navigation Landmark Example](https://otarious.github.io/accessibility-portfolio/PORTFOLIO/DEMO%208%20WCAG%20Navigation%20Landmark%20Example/after-aria.html)
+
+[DEMO 9: WCAG Focus Style Example](https://otarious.github.io/accessibility-portfolio/PORTFOLIO/Demo%209%20WCAG%20Focus%20Style%20Example/after-focus-visible.html)
+
+[DEMO 10: WCAG Keyboard Operable Example](https://otarious.github.io/accessibility-portfolio/PORTFOLIO/DEMO%2010%20WCAG%20Keyboard%20Operable%20Example/after-focusable.html)
+
+[DEMO 11: WCAG Screen Reader Label Example](https://otarious.github.io/accessibility-portfolio/PORTFOLIO/DEMO%2011%20WCAG%20Screen%20Reader%20Label%20Example/after-screenreader.html)
+
+[DEMO 12: WCAG Media Captions & Transcript Example](https://otarious.github.io/accessibility-portfolio/PORTFOLIO/DEMO%2012%20WCAG%20Media%20Captions%20%26%20Transcript%20Example/after-media.html)
+
+[DEMO 13: WCAG lang & dir Example](https://otarious.github.io/accessibility-portfolio/PORTFOLIO/Demo%2013%20WCAG%20lang%20%26%20dir%20Example/after-language.html)
+
+[Full Landing Page Case (after_services_demo)](https://otarious.github.io/accessibility-portfolio/PORTFOLIO/after_services_demo/after.html)
+
 
 *Browse each demo for before/after code and documentation.*
 
